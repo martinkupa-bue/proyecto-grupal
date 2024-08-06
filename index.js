@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World! This is my first webpage')
+  res.send('Hola soy Juan! Esta es nuestra primera pagina web')
 })
 
 app.get("/login", (req, res) => res.send("Aqui estara el login"))
